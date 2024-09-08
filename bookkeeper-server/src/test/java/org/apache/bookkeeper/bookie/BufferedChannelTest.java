@@ -71,7 +71,7 @@ public class BufferedChannelTest {
         assertThrows(NullPointerException.class,()->bf.write(src));
     }
 
-    //----------------Casi di test per migliorare Mutation Coverage e Data Flow Coverage del metodo Write-----------------------
+    //----------------Casi di test che migliorano Statement Coverage, Branch Coverage, Mutation Coverage e Data Flow Coverage del metodo Write-----------------------
 
     @Test
     public void newTestWrite1() throws IOException {
