@@ -16,7 +16,7 @@ import static org.mockito.Mockito.when;
 
 public class BufferedChannelTest {
 
-    //--------------Casi di test per il metodo Write ricavati tramite la Boundary Value Analysis-----------------------------
+    //--------------Casi di test per il metodo Write ricavati tramite la Boundary Value Analysis-------------------------------
     @Test
     public void testValidWrite() throws IOException {
         File tempFile = File.createTempFile("test", "log");
