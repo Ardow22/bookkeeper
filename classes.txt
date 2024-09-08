@@ -1,0 +1,12 @@
+Classi scelte:
+
+BOOKKEEPER
+org.apache.bookkeeper-server.bookie.BufferedChannel
+org.apache.bookkeeper-server.bookie.storage.Idb.WriteCache
+
+OPENJPA
+org.apache.openjpa-lib.util.ClassUtil
+org.apache.openjpa-lib.util.StringUtil
+
+
+
